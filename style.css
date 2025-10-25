@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#bbce10;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height:75vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.game {
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:1.5vmin;
+}
+
+.box {
+    height:19vmin;
+    width:19vmin;
+    border-radius:1rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0, 0, 0, 0.6);  /* Learn about this */
+    font-size:9vmin;
+    background-color:#f5ebe0;
+    color:#061e6c;
+    transition:all 0.3s linear 0s;
+    cursor:pointer;
+}
+
+.box:hover {
+    background-color:#e6dccf;
+    transform: scale(1.05);
+}
+
+.newBtn {
+    display:inline;
+    height:9px;
+    width:26px;
+    transition:all 0.2s linear 0s;
+}
+
+#reset-btn {
+    height:7vmin;
+    width:24vmin;
+    font-size:1.3rem;
+    font-weight:300;
+    border-radius:0.5rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0, 0, 0, 0.6);
+    background-color:#f5ebe0;
+    color:#b03533;
+    margin-top:20px;
+    transition:all 0.1s linear 0s;
+    cursor:pointer;
+}
+
+#resetBtn:hover {
+    transform:scale(1.05);
+    background-color:#824f0c;
+}
+
+#new-btn {
+    height:6vmin;
+    width:20vmin;
+    font-size:1.3rem;
+    border-radius:0.5rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0, 0, 0, 0.6);
+    background-color:#f5ebe0;
+    color:#020202;
+    margin-top:20px;
+    transition:all 1s linear 0s;
+    cursor:pointer;
+}
+
+#new-btn {
+    transform:scale(1.05);
+    background-color:#e6dccf;
+
+}
+
+#msg {
+    color:#f5ebe0;
+    font-size:6vmin;
+}
+
+.msg-container {
+    margin-top:50px;
+}
+
+.hide {
+    display:none;
+}
+
+h1 {
+    color:#f1faee;
+}
